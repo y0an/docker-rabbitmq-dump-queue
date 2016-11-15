@@ -9,7 +9,7 @@ docker run \
 -e RABBITMQ_LOGIN=admin \
 -e RABBITMQ_PWD=admin \
 -e RABBITMQ_HOST=my.rabbit.server \
--e RABBITMQ_PORT=5672 \ 
+-e RABBITMQ_PORT=5672 \
 -e QUEUE_NAME=payment.error \
 -e MAX_MESSAGE=50 \
 -v /tmp:/rabbitmq-dump-queue-result \
